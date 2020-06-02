@@ -22,4 +22,5 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
  
- $string['pluginname'] = 'Course Grades Link';
+$string['pluginname'] = 'Course Grades Link';
+//$string['pluginname_desc'] = 'Disponibiliza o link de Notas no menu Administrativo do Curso';

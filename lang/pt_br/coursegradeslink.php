@@ -15,15 +15,12 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * This plugin restores the course administration -> grades link to the navigation
+ * Strings for component 'assign', language 'en'
  *
- * @package    local_coursegradeslink
- * @copyright  2018 Texas A&M Engineering Extension Service
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   local_coursegradeslink
+ * @copyright 2018 Texas A&M Engineering Extension Service
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
-$plugin->component = 'local_coursegradeslink';   // Full name of the plugin (used for diagnostics).
-$plugin->version   = 2020060200;    // The current module version (Date: YYYYMMDDXX).
-$plugin->requires  = 2018050800;    // Requires this Moodle version.
+$string['pluginname'] = 'Link de Notas no Curso';
+//$string['pluginname_desc'] = 'Disponibiliza o link de Notas no menu Administrativo do Curso';

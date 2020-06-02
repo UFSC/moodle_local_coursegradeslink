@@ -35,7 +35,9 @@ function local_coursegradeslink_extend_navigation_course($navigation, $course, $
     // Create gradebook link and add it to course administration if rights available
     if ($adminoptions->gradebook) {
         $url = new moodle_url('/grade/report/index.php?id=' . $course->id);
-        $gradeslink = navigation_node::create('Grades', $url, navigation_node::TYPE_SETTING, 'Grades', 'gradeslink', new pix_icon('i/grades', ''));
-        $navigation->add_node($gradeslink, 'outcomes'); // Link inserted above outcomes
+        $gradeslink = navigation_node::create(get_string('grades', 'core_grades'), $url,
+            navigation_node::TYPE_SETTING, get_string('grades', 'core_grades'),
+                'gradeslink', new pix_icon('i/grades', ''));
+        $navigation->add_node($gradeslink, 'gradebooksetup'); // Link inserted above gradebooksetup
     }
 }
